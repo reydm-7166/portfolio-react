@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap');
+
+body {
+    height: fit-content;
+    min-height: 100vh;
+}
+
+.oswald-font {
+    font-family: 'Oswald', sans-serif;
+}
