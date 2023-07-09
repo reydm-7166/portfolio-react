@@ -3,9 +3,7 @@ import NavigationBar from './Template/NavigationBar'
 
 function Index() {
     return (
-        <NavigationBar >
-
-        </NavigationBar>
+        <NavigationBar />
     );
 }
 
