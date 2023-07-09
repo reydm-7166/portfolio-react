@@ -2,7 +2,7 @@ function Name(props) {
 
     return (
         <div className={props.class}>
-            Reymond T. Domingo
+            Reymond
         </div>
     )
 }
