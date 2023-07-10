@@ -12,3 +12,8 @@ body {
 .oswald-font {
     font-family: 'Oswald', sans-serif;
 }
+
+#detailsSection p {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+}
