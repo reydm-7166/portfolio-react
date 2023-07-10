@@ -1,14 +1,16 @@
 import './MainContainer.css';
-import Index from './Index'
+import NavigationBar from './Template/NavigationBar'
 import Profile from './Sections/Profile'
 import About from './Sections/About';
+import Skills from './Sections/Skills';
 
 function MainContainer() {
     return (
         <div className="Background pt-3">
-            <Index />
+            <NavigationBar />
             <Profile />
             <About />
+            <Skills />
         </div>
     );
 }
