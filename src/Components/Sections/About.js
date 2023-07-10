@@ -1,4 +1,23 @@
 import SkillCards from "../Cards/SkillCards";
+import Tiger from '../../Assets/img/tigeroh.jpg'
+
+const obj = {
+    experience: {
+        icon: <i class='fa-solid fa-briefcase'></i>,
+        title: "Experience",
+        details: "5 Months"
+    },
+    projects: {
+        icon: <i class="fa-solid fa-gears"></i>,
+        title: "Projects",
+        details: "3+"
+    },
+    degree: {
+        icon: <i class="fa-solid fa-graduation-cap"></i>,
+        title: "Degree",
+        details: "Information Technology"
+    }
+}
 
 function About()
 {
@@ -11,13 +30,14 @@ function About()
 
             <div id="DetailsContainer" className="mt-2 flex flex-wrap md:w-full md:h-full">
                 <div id="Image" className="bg-white rounded-[22px] w-80 m-auto h-64 sm:w-80 md:w-[33%] md:h-[300px]">
-                    img
+                    <img src={Tiger} alt="" className="w-full h-full rounded-[22px]"/>
                 </div>
                 <div id="detailsSection" className="w-full min-h-[300px] h-fit mt-12 md:w-4/6 md:mt-0">
                     <div id="cardContainer" className="h-1/2 px-2 flex flex-wrap justify-evenly">
-                        <SkillCards icon="exp" title="Experience" details="5 Months"></SkillCards>
-                        <SkillCards icon="exp" title="Projects" details="3+"></SkillCards>
-                        <SkillCards icon="exp" title="Degree" details="Bachelor's"></SkillCards>
+                        
+                        <SkillCards data={obj.experience}></SkillCards>
+                        <SkillCards data={obj.projects}></SkillCards>
+                        <SkillCards data={obj.degree}></SkillCards>
                     </div>
                     <div id="Objectives" className="h-fit px-2 py-1 w-full flex mt-8 md:mt-3 justify-center lg:mt-10">
                         <div className="m-2 min-h-fit">

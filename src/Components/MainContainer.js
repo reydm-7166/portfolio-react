@@ -6,7 +6,7 @@ import Skills from './Sections/Skills';
 
 function MainContainer() {
     return (
-        <div className="Background pt-3">
+        <div className="Background">
             <NavigationBar />
             <Profile />
             <About />

@@ -5,3 +5,7 @@
     width: 500px;
 }
 
+img {
+    object-fit: cover;
+}
+
