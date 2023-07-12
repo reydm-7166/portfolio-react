@@ -1,4 +1,4 @@
-import SkillCards from "../Cards/SkillCards";
+import AboutMe from "../Cards/AboutMeCards";
 import Tiger from '../../Assets/img/tigeroh.jpg'
 
 const obj = {
@@ -25,7 +25,7 @@ function About()
         <section id="ParentContainer" className="w-96 m-auto rounded-md mt-5 h-fit sm:w-10/12 md:mt-10 md:w-[95%] lg:w-[985px]">
             <div id="LabelContainer" className="text-center py-1">
                 <p className="text-[#797D83] mx-auto text-sm md:text-xl"><i class="fa-regular fa-user fa-xl"></i></p>
-                <p className="text-[#9589D7] font-bold text-sm my-2 oswald-font tracking-wider md:text-xl">About Me</p>
+                <p className="text-[#9589D7] font-bold text-lg my-2 oswald-font tracking-wider md:text-xl">About Me</p>
             </div>
 
             <div id="DetailsContainer" className="mt-2 flex flex-wrap md:w-full md:h-full">
@@ -34,9 +34,9 @@ function About()
                 </div>
                 <div id="detailsSection" className="w-full min-h-[300px] h-fit mt-12 md:w-[58%] lg:w-[66%] md:mt-0">
                     <div id="cardContainer" className="h-1/2 px-2 flex flex-wrap justify-evenly">
-                        <SkillCards data={obj.experience}></SkillCards>
-                        <SkillCards data={obj.projects}></SkillCards>
-                        <SkillCards data={obj.degree}></SkillCards>
+                        <AboutMe data={obj.experience}></AboutMe>
+                        <AboutMe data={obj.projects}></AboutMe>
+                        <AboutMe data={obj.degree}></AboutMe>
                     </div>
                     <div id="Objectives" className="h-[112px] px-2 py-1 w-full flex mt-5 md:mt-5 justify-center">
                         <div className="m-2 min-h-fit">

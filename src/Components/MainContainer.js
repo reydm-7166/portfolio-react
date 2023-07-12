@@ -10,7 +10,7 @@ function MainContainer() {
             <NavigationBar />
             <Profile />
             <About />
-            {/* <Skills /> */}
+            <Skills />
         </div>
     );
 }
