@@ -1,41 +1,156 @@
 import SkillCards from "../Cards/SkillCards";
+import { BiLogoSpringBoot, BiLogoJavascript, BiLogoVuejs  } from 'react-icons/bi';
+import { DiRubyRough, DiCodeigniter } from 'react-icons/di';
+import { SiRubyonrails, SiCss3, SiJquery, SiLivewire, SiReact, SiTailwindcss, SiBootstrap, SiPostgresql, SiUbuntu, SiGithub, SiMysql } from 'react-icons/si';
+import { AiOutlineApi } from 'react-icons/ai'
 
 const skills = {
     'backend': {
-        'title': 'Backend Development',
+        'part': 'Backend Development',
         'list' : [
-            'PHP',
-            'Laravel',
-            'Codeigniter',
-            'Ruby',
-            'RoR',
-            'Java',
-            'Spring/SpringBoot',
-            'Node/Express.js'
-        ]
+            {
+                'title': {
+                    'icon': <i class="fa-brands fa-php"></i>,
+                    'name': 'PHP'
+                },
+            },
+            {
+                'title': {
+                    'icon': <i class="fa-brands fa-laravel"></i>,
+                    'name': 'Laravel'
+                },
+            },
+            {
+                'title': {
+                    'icon': <DiCodeigniter/>,
+                    'name': 'Codeigniter'
+                },
+            },
+            {
+                'title': {
+                    'icon': <DiRubyRough/>,
+                    'name': 'Ruby'
+                },
+            },
+            {
+                'title': {
+                    'icon': <SiRubyonrails/>,
+                    'name': 'Ruby on Rails'
+                },
+            },
+            {
+                'title': {
+                    'icon': <i class="fa-brands fa-java"></i>,
+                    'name': 'Java'
+                },
+            },
+            {
+                'title': {
+                    'icon': <BiLogoSpringBoot />,
+                    'name': 'Spring/SpringBoot'
+                },
+            },
+            {
+                'title': {
+                    'icon': <i class="fa-brands fa-node"></i>,
+                    'name': 'Node/Express.js'
+                },
+            },
+        ],
+        
     },
     'frontend': {
-        'title': 'Frontend Development',
+        'part': 'Frontend Development',
         'list' : [
-            'CSS/LESS',
-            'Javascript',
-            'jQuery',
-            'Livewire',
-            'VueJS',
-            'ReactJS',
-            'Bootstrap',
-            'Tailwind',
+            {
+                'title': {
+                    'icon': <SiCss3 />,
+                    'name': 'CSS/LESS'
+                },
+            },
+            {
+                'title': {
+                    'icon': <SiCss3 />,
+                    'name': 'Javascript'
+                },
+            },
+            {
+                'title': {
+                    'icon': <SiJquery />,
+                    'name': 'jQuery'
+                },
+            },
+            {
+                'title': {
+                    'icon': <SiLivewire />,
+                    'name': 'Livewire'
+                },
+            },
+            {
+                'title': {
+                    'icon': <BiLogoVuejs />,
+                    'name': 'VueJS'
+                },
+            },
+            {
+                'title': {
+                    'icon': <SiReact />,
+                    'name': 'ReactJS'
+                },
+            },
+            {
+                'title': {
+                    'icon': <SiBootstrap />,
+                    'name': 'Bootstrap'
+                },
+            },
+            {
+                'title': {
+                    'icon': <SiTailwindcss />,
+                    'name': 'Tailwind'
+                },
+            },
         ]
     },
     'technologies': {
-        'title': 'Technologies',
+        'part': 'Technologies',
         'list': [
-            'Postgresql',
-            'MySQL',
-            'Git/GitHub',
-            'RESTful',
-            'Linux',
-            'LEMP stack',
+            {
+                'title': {
+                    'icon': <SiPostgresql />,
+                    'name': 'Postgresql'
+                },
+            },
+            {
+                'title': {
+                    'icon': <SiMysql />,
+                    'name': 'MySQL'
+                },
+            },
+            {
+                'title': {
+                    'icon': <SiGithub />,
+                    'name': 'Git/GitHub'
+                },
+            },
+            {
+                'title': {
+                    'icon': <AiOutlineApi />,
+                    'name': 'RESTful API'
+                },
+            },
+            {
+                'title': {
+                    'icon': <SiUbuntu />,
+                    'name': 'Linux'
+                },
+            },
+            {
+                'title': {
+                    'icon': <SiCss3 />,
+                    'name': 'LEMP stack'
+                },
+            },
         ]
     }
 }
