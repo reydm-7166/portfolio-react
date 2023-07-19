@@ -12,6 +12,9 @@ function Profile()
                 <p className="text-blue-200 text-sm mt-1 tracking-wide">
                     Backend Developer
                 </p>
+                <p className="text-blue-200 text-sm mt-1 tracking-wide">
+                    (This is a work in progress, not yet done )
+                </p>
                 
             </div>
             

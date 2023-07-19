@@ -1,5 +1,5 @@
 import AboutMe from "../Cards/AboutMeCards";
-import Tiger from '../../Assets/img/tigeroh.jpg'
+import DP from '../../Assets/img/portfolio-image.jpg'
 
 const obj = {
     experience: {
@@ -29,10 +29,10 @@ function About()
             </div>
 
             <div id="DetailsContainer" className="mt-2 flex flex-wrap md:w-full md:h-full">
-                <div id="Image" className="bg-white rounded-[22px] w-80 m-auto h-64 sm:w-[300px] md:w-[300px] md:h-[310px]">
-                    <img src={Tiger} alt="" className="w-full h-full rounded-[22px]"/>
+                <div id="Image" className="bg-white rounded-[22px] w-80 m-auto h-96 sm:w-[300px] md:w-[300px] md:h-[350px] lg:h-[320px] xl:h-[320px]">
+                    <img src={DP} alt="" className="w-full h-full m-auto rounded-[22px]"/>
                 </div>
-                <div id="detailsSection" className="w-full min-h-[300px] h-fit mt-12 md:w-[58%] lg:w-[66%] md:mt-0">
+                <div id="detailsSection" className="w-full min-h-[300px] h-fit mt-12 md:w-[58%] lg  :w-[66%] md:mt-0">
                     <div id="cardContainer" className="h-1/2 px-2 flex flex-wrap justify-evenly">
                         <AboutMe data={obj.experience}></AboutMe>
                         <AboutMe data={obj.projects}></AboutMe>

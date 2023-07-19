@@ -1,5 +1,3 @@
-import { BiLogoSpringBoot  } from 'react-icons/bi';
-
 function SkillCards (props) 
 {
     let data = props.section.list;
@@ -20,7 +18,6 @@ function SkillCards (props)
                         </div>
                     ))
                 }
-                
             </div>
         </div>
     )
